@@ -2,10 +2,6 @@
 # system.prop for montana
 #
 
-# Updater
-PRODUCT_PROPERTY_OVERRIDES += \
-    lineage.updater.uri=https://raw.githubusercontent.com/montanadevelopment/releases/master/lineage16.json
-
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
     audio.deep_buffer.media=true \

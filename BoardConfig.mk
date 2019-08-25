@@ -221,9 +221,6 @@ PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)/libhidl \
     $(DEVICE_PATH)/libshims
 
-# Thermal
-USE_DEVICE_SPECIFIC_THERMAL := true
-
 # Vendor security patch level
 VENDOR_SECURITY_PATCH := 2019-02-01
 
